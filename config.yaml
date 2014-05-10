@@ -1,0 +1,7 @@
+---
+title: "Marlon Photography"
+baseurl: 'http://localhost'
+indexes:
+  tag = "tags"
+  group = "groups"
+---
