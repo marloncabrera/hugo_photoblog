@@ -18,9 +18,7 @@
       </nav>
       <section id="main">
       <div>
-        {{ range .Data.Pages }}
-          {{ .Render "summary"}}
-        {{ end }}
+        {{ .Content }}
       </div>
       </section>
       <footer>
