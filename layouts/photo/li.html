@@ -17,11 +17,10 @@
        </ul>
       </nav>
       <section id="main">
-      <div>
-        {{ range .Data.Pages }}
-          {{ .Render "summary"}}
-        {{ end }}
-      </div>
+      <li>
+      <a href="{{ .Permalink }}">{{ .Title }}</a>
+      <div class="meta">{{ .Date.Format "Mon, Jan 2, 2006" }}</div>
+    </div>
       </section>
       <footer>
         <p>@copy; Marlon Photography 2014 | All Rights Reserved. </p>
