@@ -18,8 +18,11 @@
       </nav>
       <section id="main">
       <div>
-        {{ .Content }}
+        {{ .TableOfContents }}
       </div>
+      {{ end }}
+      <h1>{{ .Title }}</h1>
+        {{ .Content }}
       </section>
       <footer>
         <p>@copy; Marlon Photography 2014 | All Rights Reserved. </p>
